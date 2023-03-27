@@ -1,3 +1,16 @@
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+  background-color: blue;
+  box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.35);
+}
+.btn:hover {
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+}
+
 body {
   padding: auto;
 }
@@ -15,6 +28,14 @@ h1 {
   text-transform: uppercase;
   width: 50rem;
   background-color: #f1f1f1;
+}
+
+p {
+  margin: 0;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: purple;
 }
 
 /*div.listado ul li{
