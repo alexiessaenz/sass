@@ -1,6 +1,9 @@
-@import "sass/components";
-@import "sass/mixins";
-@import "sass/styles";
+//Components
+@use "sass/components" as comp;
+//Mixins
+@use "sass/mixins";
+//Styles
+@use "sass/styles";
 
 
 

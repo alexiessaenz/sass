@@ -1,3 +1,4 @@
+@use "mixins";
 
 body{
     padding: auto;
@@ -12,12 +13,12 @@ body{
   
   h1 {
     margin: 0;
-    @include text-format(#f1f1f1);
+    @include mixins.text-format(#f1f1f1);
   }
   
   p {
     margin: 0;
-    @include text-format(purple);
+    @include mixins.text-format(purple);
   }
   
   /*div.listado ul li{
