@@ -9,12 +9,15 @@
   color: white;
   cursor: pointer;
 }
-
 .btn-2 {
-  border-radius: 15px;
   margin: 0.5rem;
+  border-radius: 15px;
 }
 
+/*.btn-2 //extend of btn funtionality without parent selector
+ *  @extend .btn
+ *  border-radius: 15px
+ *  margin: 0.5rem */
 body {
   padding: auto;
 }
